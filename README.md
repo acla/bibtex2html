@@ -5,15 +5,19 @@ bibtex2html is an easy-to-use PHP script (also available as a Wordpress plugin) 
 
 The script is particularly useful if you want to include a list of your publications on your website, without having to worry about updating the .html file each time a publication is added or something else changes. As you have your bibliography in a BibTeX file anyway, you simply replace the online BibTeX file (an operation which is quick and easy).
 
+> **[Download the script] [1]**  
+
 The script is also available as a *plugin for Wordpress*. The plugin, called bibtex adds a new shortcode [bibtex]...[/bibtex] which you can use in posts or pages to display a list of BibTeX entries in nice Html. The BibTeX entries are stored inside a regular Wordpress page or post, not inside a separate file. This makes it easy to edit them with the normal user interface.
 
-This content was originally hosted at [classen.be/bibtex2html] [1].
+> **[Download the Wordpress plugin] [2]**  
+
+This content was originally hosted at [classen.be/bibtex2html] [3].
 
 
 Instructions for the script
 ---------------------------
 
-The script is easy to use, you only need to add two lines of PHP code to your webpage; there is nothing to configure whatsoever. If you are used to managing your bibliography with a BibTeX-based management tool like [JabRef] [2], this is all quite straightforward.
+The script is easy to use, you only need to add two lines of PHP code to your webpage; there is nothing to configure whatsoever. If you are used to managing your bibliography with a BibTeX-based management tool like [JabRef] [4], this is all quite straightforward.
 
 There are several parameters that allow you to configure how the entries are grouped/ordered, and which group titles are used. This, and instructions about how to change the layout of a listing can be found in the short documentation (the first part of the php file).
 
@@ -74,7 +78,7 @@ bibtex2html interprets several non-standard BibTeX fields:
 * *citeseerurl:* The citeseer url (displayed as "citeseer...").
 * *doi:* This is supposed to be DOI name from dx.doi.org (displayed as "doi..."). 
 
-Note that the script does not interpret BibTeX strings (abbreviations), crossrefs or similar things, maybe I'll add this one day. If you need a more comprehensive BibTeX parser, check out [bibliophile.sourceforge.net] [3].
+Note that the script does not interpret BibTeX strings (abbreviations), crossrefs or similar things, maybe I'll add this one day. If you need a more comprehensive BibTeX parser, check out [bibliophile.sourceforge.net] [5].
 
 Feel free to use/adapt this script like you want. If you detect errors in the presentation of a given entry, please send me a description of the error so I can correct it in subsequent versions.
 
@@ -82,15 +86,17 @@ Feel free to use/adapt this script like you want. If you detect errors in the pr
 Thanks to
 ---------
 
-* [Johannes Knabe] [4] for the original script.
-* [Eric Sommerlade] [5] who added support for accents in the correct BibTeX style.
-* [Johnnie Chan] [6] who fixed some bugs.
+* [Johannes Knabe] [6] for the original script.
+* [Eric Sommerlade] [7] who added support for accents in the correct BibTeX style.
+* [Johnnie Chan] [8] who fixed some bugs.
 
 
-  [1]: http://www.classen.be/bibtex2html/   "classen.be/bibtex2html"
-  [2]: http://jabref.sourceforge.net/       "JabRef"
-  [3]: http://bibliophile.sourceforge.net/  "bibliophile.sourceforge.net"
-  [4]: http://bibscript.panmental.de/       "Johannes Knabe"
-  [5]: http://www.sommerla.de/              "Eric Sommerlade"
-  [6]: http://www.johnniechan.com/          "Johnnie Chan"
+  [1]: https://github.com/acla/bibtex2html/raw/master/bibtex2html.php      "Download the script"
+  [2]: https://github.com/acla/bibtex2html/raw/master/wp-bibtex-plugin.zip "Download the Wordpress plugin"
+  [3]: http://www.classen.be/bibtex2html/   "classen.be/bibtex2html"
+  [4]: http://jabref.sourceforge.net/       "JabRef"
+  [5]: http://bibliophile.sourceforge.net/  "bibliophile.sourceforge.net"
+  [6]: http://bibscript.panmental.de/       "Johannes Knabe"
+  [7]: http://www.sommerla.de/              "Eric Sommerlade"
+  [8]: http://www.johnniechan.com/          "Johnnie Chan"
 
